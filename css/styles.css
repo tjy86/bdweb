@@ -244,6 +244,11 @@ footer{
 #head-soc li#twit a {background-position: -128px 0px;}
 #head-soc li#twit a:hover {background-position: -128px -32px;}
 
+#head-soc li#g a {background-position: 0px 0px;}
+#head-soc li#g a:hover {background-position: 0px -32px;}
+
+/*end social media*/
+
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
