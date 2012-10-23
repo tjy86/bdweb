@@ -1,0 +1,262 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/*
+purple is 61004d
+light blue is a0e2f9*/
+/* ============================== */
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+.container{
+
+	background: url('../images/bian-dang-truck-bg.png') no-repeat;
+		border-left: 20px solid #61004d;
+}
+
+#wrapper{
+	width: 900px;
+}
+.right-margin{
+	border-right: 100px solid #61004d;
+}
+#sidebar{
+	margin-left: 12px;
+	margin-right: -10px;
+}
+.widget{	
+	float: right;
+	width: 100%;
+	height: 50%;
+	margin-top: 10px;
+}
+a{
+	color: #a0e2f9;
+	background: #61004d;
+}
+
+h1 a{
+	background: url('../images/bian-dang-logo.png') no-repeat;
+	display: block;
+	height: 235px;
+	width: 235px;
+	text-indent: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	margin:auto;
+  	float: left;
+}
+
+h2{
+	text-align: center;
+	color: #61004d;
+	background: #fff;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px 0 10px 0;
+	border-radius: 5px;
+}	
+
+h3{
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	padding: 30px;
+	text-decoration: underline;
+}
+
+iframe{
+	color: #61004d;
+	background: #fff;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px 0 10px 0;
+	border-radius: 5px;
+	max-width: 511px;
+}	
+
+.container p {
+	color: #fff;
+	max-width: 511px;
+	line-height: 20px;
+	text-indent: 50px;
+	margin: 20px 0 0 0;
+}
+
+/*nav menu*/
+nav li{
+	float: left;
+	text-decoration: none;
+	list-style-type: none;
+}
+nav a{
+	background: #61004d;
+	color:#fff;
+	padding: 10px;
+	height: 20px;
+	width: auto;
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+nav a:hover{
+	text-decoration: underline;
+}
+
+#top-right{
+	float:right;
+}
+
+
+footer{
+	background: #61004d;
+	color:#fff;
+	font-size: 9px;
+	padding: 20px;
+	margin: 10px 20px 10px 0px;
+	text-align: right;
+}
+
+.center{
+	text-align: center;
+}
+
+.clear{
+	clear:	both;
+}
+
+
+
+
+/**************** Food Details ****************/
+#main {
+    float: left;
+    padding: 40px 30px 30px 30px;
+    width: 100%;
+    font-size: 16px;
+    background: #61004d;
+    margin-top: 10px;
+}
+
+
+#main dl {
+  overflow: hidden;
+}
+
+#main dt {
+	float: left;
+	padding: 5px 5px 0 0;
+	font-weight: bolder;
+	color: #fff;
+	letter-spacing: 1px;
+}
+
+#main dd.price {
+	padding: 5px;
+	float: right;
+	font-weight: bolder;
+	color: #fff;
+}
+
+#main dd.ingredients {
+	float: left;
+	font-size: 12px;
+	width: 90%;
+	color: #fff;
+	padding: 0 0px 10px 10px;
+	letter-spacing: 1px;
+}
+.menu-footer {
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	background: #6100
+	padding: 20px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+.menu-class{
+	text-align: center;
+	color: #61004d;
+	background: #fff;
+	display: block;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 5px;
+	margin: 10px 0 10px 0;
+	border-radius: 5px;
+}	
+	/*End food menu*/
+
+/*schedule dictionary*/
+
+#schedule dd.spot{
+	float: left;
+	font-size: 14px;
+	width: 100%;
+	color: #fff;
+	padding: 5px 0px 30px 30px;
+	letter-spacing: 1px;
+}
+
+#schedule .footer{
+	text-align: center;
+	display: block;
+	font-size: 12px;
+	color: #fff;
+	background: #6100;
+	padding: 30px 0px 0px 0px;
+	letter-spacing: 1px;
+}
+
+#schedule dd.hood {
+	padding: 5px;
+	float: right;
+	font-weight: bolder;
+	color: #fff;
+}
+
+/* end schedule dictionary*/
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	font-family: 'Raleway', sans-serif;
+	}
+	
+	.container p {
+	color: #fff;
+	line-height: 20px;
+	text-align: center;
+	margin: 20px 0 0 0;
+	}
+
+	#wrapper{
+		width: 90%;
+}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
